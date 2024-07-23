@@ -9,7 +9,6 @@ export default function ShareLinkButton() {
     setCopied(true);
     setTimeout(() => setCopied(false), 1500);
   }
-  console.log("ShareLink" + copied);
   return (
     <button
       onClick={handleClick}
