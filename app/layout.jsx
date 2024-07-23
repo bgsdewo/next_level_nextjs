@@ -19,7 +19,7 @@ export default function Layout({ children }) {
         <main className="py-3 grow">{children}</main>
         <footer className="border-t py-3 text-center text-xs">
           <hr />
-          <span>I m Here to stay</span>
+          <span>{"I'm here to stay (Footer)"}</span>
         </footer>
       </body>
     </html>

@@ -27,3 +27,5 @@ export default function Layout({ children }: LayoutProps) {
 npx serve@latest out
 
 node scripts/strapi-request.mjs
+
+npm install -D eslint eslint-config-next

@@ -11,8 +11,9 @@ export default async function BlogPage() {
     <>
       <Heading>Blog</Heading>
       <h2 className="text-2xl mb-3">List of posts</h2>
-      {posts.map((post) => (
+      {posts.map((post, index) => (
         <PostCard
+          key={index}
           title={post.title}
           href={`/blog/${post.slug}`}
           image={post.image}
