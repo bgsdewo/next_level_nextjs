@@ -1,0 +1,66 @@
+{
+  "data": [
+    {
+      "id": 5,
+      "attributes": {
+        "slug": "pengembangan-web-panduan-memilih-framework-terbaik-untuk-proyek-anda",
+        "title": "Pengembangan Web: Panduan Memilih Framework Terbaik untuk Proyek Anda",
+        "description": "Memilih framework yang tepat adalah langkah krusial dalam pengembangan web. Artikel ini membahas berbagai framework populer dan memberikan panduan untuk memilih yang terbaik sesuai kebutuhan proyek Anda.",
+        "publishedAt": "2024-07-22T00:13:09.086Z",
+        "body": "Dalam pengembangan web, framework memainkan peran penting dalam menentukan efisiensi dan kesuksesan proyek. Berikut ini adalah panduan untuk memilih framework yang tepat:",
+        "image": {
+          "data": {
+            "id": 8,
+            "attributes": {
+              "url": "/uploads/image_5_9723aececf.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 4,
+      "attributes": {
+        "slug": "revolusi-industri-4-0-bagaimana-teknologi-mengubah-dunia-kerja-dan-bisnis",
+        "title": "Revolusi Industri 4.0: Bagaimana Teknologi Mengubah Dunia Kerja dan Bisnis",
+        "description": "Revolusi Industri 4.0 membawa transformasi besar pada dunia kerja dan bisnis melalui teknologi canggih seperti AI, IoT, dan otomatisasi. Pelajari dampaknya dan bagaimana mempersiapkan diri untuk perubahan ini.",
+        "publishedAt": "2024-07-22T00:11:26.558Z",
+        "body": "Revolusi Industri 4.0 adalah fase baru dalam evolusi industri yang mengintegrasikan teknologi canggih untuk menciptakan lingkungan produksi yang lebih efisien dan terhubung. Artikel ini membahas pengaruh Revolusi Industri 4.0 pada dunia kerja dan bisnis:",
+        "image": {
+          "data": {
+            "id": 7,
+            "attributes": {
+              "url": "/uploads/image_4_ac69ecff24.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 3,
+      "attributes": {
+        "slug": "tren-teknologi-terbaru-di-tahun-2024-apa-yang-harus-diperhatikan",
+        "title": "Tren Teknologi Terbaru di Tahun 2024: Apa yang Harus Diperhatikan",
+        "description": "Tahun 2024 membawa banyak inovasi teknologi baru yang berpotensi mengubah cara kita hidup dan bekerja. Temukan tren teknologi terbaru dan bagaimana mereka mempengaruhi masa depan kita.",
+        "publishedAt": "2024-07-22T00:10:06.522Z",
+        "body": "Teknologi terus berkembang dengan cepat, dan tahun 2024 bukanlah pengecualian. Berikut ini adalah beberapa tren teknologi terbaru yang harus Anda perhatikan:",
+        "image": {
+          "data": {
+            "id": 5,
+            "attributes": {
+              "url": "/uploads/image_3_76430ae703.jpg"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pageSize": 3,
+      "pageCount": 2,
+      "total": 5
+    }
+  }
+}

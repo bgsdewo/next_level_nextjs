@@ -1,0 +1,29 @@
+cara ngerun nextjs
+-npx next dev
+
+ctrl+c = buat matiin run dari nextjs
+
+import { ReactNode } from "react";
+interface LayoutProps {
+  children:ReactNode;
+}
+export default function Layout({ children }: LayoutProps) {
+  return (
+    <html lang="en">
+      <head>
+        <title>LearnNextJs</title>
+      </head>
+      <body>
+        <header>[header]</header>
+        <main>{children}</main>
+        <footer>[footer]</footer>
+      </body>
+    </html>
+  );
+}
+
+//cara nge run pake server sendiri
+
+npx serve@latest out
+
+node scripts/strapi-request.mjs
