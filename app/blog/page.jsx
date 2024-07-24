@@ -9,7 +9,7 @@ export const metadata = {
 };
 export default async function BlogPage({ searchParams }) {
   const page = parsePageParam(searchParams.page);
-  const posts = await getAllPosts();
+  const posts = await getAllPosts(3, page);
 
   return (
     <>
