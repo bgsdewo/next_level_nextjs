@@ -3,12 +3,13 @@ import ShareLinkButton from "@/components/ShareLinkButton";
 import { getPost, getSlugs } from "@/lib/post";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-export const dynamic = "force-dynamic";
 
-// export async function generateStaticParams() {
-//   const slugs = await getSlugs();
-//   return slugs.map((slug) => ({ slug }));
-// }
+export const revalidate = 30;
+
+export async function generateStaticParams() {
+  const slugs = await getSlugs();
+  return slugs.map((slug) => ({ slug }));
+}
 
 export async function generateMetadata({ params: { slug } }) {
   const post = await getPost(slug);
