@@ -29,3 +29,5 @@ npx serve@latest out
 node scripts/strapi-request.mjs
 
 npm install -D eslint eslint-config-next
+
+rm -rf .next 
