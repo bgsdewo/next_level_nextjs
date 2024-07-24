@@ -1,18 +1,54 @@
 {
   "data": [
     {
-      "id": 5,
+      "id": 10,
       "attributes": {
-        "slug": "pengembangan-web-panduan-memilih-framework-terbaik-untuk-proyek-anda",
-        "title": "Pengembangan Web: Panduan Memilih Framework Terbaik untuk Proyek Anda",
-        "description": "Memilih framework yang tepat adalah langkah krusial dalam pengembangan web. Artikel ini membahas berbagai framework populer dan memberikan panduan untuk memilih yang terbaik sesuai kebutuhan proyek Anda.",
-        "publishedAt": "2024-07-22T00:13:09.086Z",
-        "body": "Dalam pengembangan web, framework memainkan peran penting dalam menentukan efisiensi dan kesuksesan proyek. Berikut ini adalah panduan untuk memilih framework yang tepat:",
+        "slug": "ayam-bakar",
+        "title": "ayam-bakar update",
+        "description": "bakar",
+        "publishedAt": "2024-07-24T06:01:11.087Z",
+        "body": "bakar",
         "image": {
           "data": {
-            "id": 8,
+            "id": 12,
             "attributes": {
-              "url": "/uploads/image_5_9723aececf.jpg"
+              "url": "/uploads/image_4_988736e644.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 8,
+      "attributes": {
+        "slug": "ayamsumatara",
+        "title": "ayamsumatara UPDATE lagi",
+        "description": "Google",
+        "publishedAt": "2024-07-23T23:23:04.344Z",
+        "body": "suamatra upadte lagi",
+        "image": {
+          "data": {
+            "id": 3,
+            "attributes": {
+              "url": "/uploads/image_1_5660bc72cc.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": 6,
+      "attributes": {
+        "slug": "ayam-geprek",
+        "title": "Ayam Geprek Update ke 5",
+        "description": "Ayam Geprek Mama Lala: Sensasi Lezat yang Bikin Ketagihan!",
+        "publishedAt": "2024-07-23T13:33:11.489Z",
+        "body": "Update ke 4",
+        "image": {
+          "data": {
+            "id": 9,
+            "attributes": {
+              "url": "/uploads/ayam_geprek_996ca29c99.jpg"
             }
           }
         }
@@ -22,7 +58,9 @@
   "meta": {
     "pagination": {
       "page": 1,
-      "pageSize": 1
+      "pageSize": 3,
+      "pageCount": 3,
+      "total": 8
     }
   }
 }

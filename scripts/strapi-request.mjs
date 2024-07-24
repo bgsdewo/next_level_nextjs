@@ -6,15 +6,10 @@ const url =
   "?" +
   qs.stringify(
     {
-      filters: {
-        slug: {
-          $eq: "pengembangan-web-panduan-memilih-framework-terbaik-untuk-proyek-anda",
-        },
-      },
       fields: ["slug", "title", "description", "publishedAt", "body"], // Hapus "author" dari sini
       populate: { image: { fields: ["url"] } },
-      sort: ["publishedAt:desc"],
-      pagination: { pageSize: 1, withCount: false },
+      sort: ["updatedAt:desc"],
+      pagination: { pageSize: 3, page: 1 },
     },
     { encodeValuesOnly: true }
   );
